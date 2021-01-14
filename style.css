@@ -1,3 +1,5 @@
+/* GENERAL */
+
 .nav {
     background-color: crimson;
     padding: 2em;
@@ -15,22 +17,16 @@ a:link {
     color: wheat;
 }
 
-
-/*a link the user has visited*/
-
 a:visited {
     color: wheat;
 }
-
-
-/*a link when the user mouses over it*/
 
 a:hover {
     color: lightcoral;
 }
 
 
-/* Styling for input type='color' */
+/* INPUT TYPE COLOR */
 
 .col-sm {
     padding: 1em;
@@ -71,4 +67,29 @@ a:hover {
     border: 1px solid black;
     margin-top: 0.5em;
     padding: 0.5em;
+}
+
+
+/* THE COUNTER */
+
+#value {
+    font-size: 4em;
+    margin: auto;
+    display: table;
+}
+
+.btns {
+    text-align: center;
+}
+
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+.black {
+    color: black;
 }
