@@ -14,15 +14,11 @@ img {
 }
 
 a:link {
-    color: wheat;
+    color: darkgray;
 }
 
 a:visited {
-    color: wheat;
-}
-
-a:hover {
-    color: lightcoral;
+    color: darkgray;
 }
 
 
@@ -92,4 +88,21 @@ a:hover {
 
 .black {
     color: black;
+}
+
+
+/* HTML CANVAS */
+
+#canvas {
+    background-color: #333;
+    margin: auto;
+    display: table;
+}
+
+.index:link {
+    color: darkgray;
+}
+
+.index:visited {
+    color: crimson;
 }
