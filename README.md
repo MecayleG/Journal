@@ -11,3 +11,4 @@ References for this project - https://www.w3schools.com/html/html_emojis.asp (fo
 References for this project - https://www.vanillajavascriptprojects.com/ (project origin) , https://stackoverflow.com/questions/8392211/html-span-align-center-not-working (how to center span).
 3. I always wanted to try canvas! This was fun but also quite tricky and involved alot of properties, methods and numbers(which I had never used). Luckily W3Schools explains the code in this awesome tutorial. 
 References for this project - https://www.w3schools.com/graphics/canvas_clock.asp
+4. I discovered this tag a few months ago and it seemed so simple to use, it also requires no javascript to set up, unless of course you want to spice it up and play things based on conditions. References for this project - https://www.w3schools.com/html/html5_audio.asp (audio tag), https://www.youtube.com/watch?v=qTBOtv02su8 (the song)

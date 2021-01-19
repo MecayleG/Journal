@@ -106,3 +106,15 @@ a:visited {
 .index:visited {
     color: crimson;
 }
+
+
+/* AUDIO */
+
+audio {
+    margin-top: 1em;
+    background-color: blueviolet;
+}
+
+.msg {
+    font-size: 10px;
+}
