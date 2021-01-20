@@ -1,4 +1,4 @@
-// Input type='color'
+// INPUT TYPE='COLOR'
 var colorValue = document.getElementById("favcolor");
 var textColor = document.querySelector(".color-text");
 var colorBtn = document.querySelector(".submit-color-btn");
@@ -12,7 +12,7 @@ colorBtn.addEventListener("click", function() {
     }, 5000);
 });
 
-// The counter
+// THE COUNTER
 let counter = 0;
 const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".btn");
@@ -40,7 +40,7 @@ btns.forEach(function(btn) {
         value.textContent = counter;
     })
 });
-// html canvas 
+// HTML CANVAS
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 var radius = canvas.height / 2;
@@ -120,4 +120,20 @@ function drawHand(ctx, pos, length, width) {
     ctx.lineTo(0, -length);
     ctx.stroke();
     ctx.rotate(-pos);
+}
+
+//MODAL
+var modal = document.getElementById("myModal");
+var btn = document.getElementById("myBtn");
+var span = document.getElementsByClassName("close")[0];
+btn.onclick = function() {
+    modal.style.display = "block";
+}
+span.onclick = function() {
+    modal.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
 }
