@@ -27,7 +27,7 @@
     <!-- My learned things here -->
     <div class="container">
         <div class="row">
-            <div class="col-sm one-pic border">
+            <div class="col">
                 <h4>1. Input type="color"</h4>
                 <hr>
                 <label for="favcolor">What's your favorite color?</label> <br>
@@ -35,7 +35,7 @@
                 <button class="submit-color-btn">Enter</button>
                 <p class="color-text"></p>
             </div>
-            <div class="col-sm border">
+            <div class="col">
                 <h4>2. A counter </h4>
                 <hr>
                 <span id="value">0</span> <br>
@@ -45,22 +45,24 @@
                     <button class="btn increase">Increase</button>
                 </div>
             </div>
-            <div class="col-sm border">
+            <div class="col">
                 <h4>3. HTML Canvas </h4>
                 <hr>
                 <canvas id="canvas" width="170" height="170"></canvas>
             </div>
-            <div class="col-sm border">
+        </div>
+        <div class="row">
+            <div class="col">
                 <h4>4. Audio</h4>
                 <hr>
                 <label for="audio">Press play to hear one of my favorite songs &#x1F3B5;</label>
                 <audio id="audio" controls>
                     <source src="media/Hollyn - To The Moon (Official Music Video).mp3" type="audio/mpeg">
                     Your browser does not support the audio element.
-                  </audio>
+                </audio>
                 <p class="msg">To Z.Lakay</p>
             </div>
-            <div class="col-sm border">
+            <div class="col">
                 <h4>5. Modal</h4>
                 <hr>
                 <button id="myBtn">Click Me</button>
@@ -99,29 +101,72 @@
                 </div>
 
             </div>
+            <div class="col">
+                <h4>6. Slideshow</h4>
+                <hr>
+                <div class="slideshow-container">
 
-            <!-- <div class="col-sm border ">
-                Coming Soon </div>
-            <div class="col-sm border ">
-                Coming Soon </div>
-            <div class="col-sm border ">
-                Coming Soon </div>
-            <div class="col-sm border ">
-                Coming Soon </div>
-            <div class="col-sm border ">
-                Coming Soon </div>
-            <div class="col-sm border ">
-                Coming Soon </div>
-            <div class="col-sm border ">
-                Coming Soon </div>
-            <div class="col-sm border ">
-                Coming Soon </div> -->
+                    <div class="mySlides ">
+                        <div class="numbertext">1 / 4</div>
+                        <img src="media/enjoy.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides ">
+                        <div class="numbertext">2 / 4</div>
+                        <img src="media/love.jpg" style="width:100%">
+                    </div>
+
+                    <div class="mySlides ">
+                        <div class="numbertext">3 / 4</div>
+                        <img src="media/the sign.jpg" style="width:100%">
+                    </div>
+                    <div class="mySlides ">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="media/WKR.jpg" style="width:100%">
+                    </div>
 
 
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                </div>
+                <br>
+
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+
+                </div>
+            </div>
         </div>
     </div>
+    <!-- <div class="row">
+        <div class="col">
+            1 of 2
+        </div>
+        <div class="col">
+            2 of 2
+        </div>
+        <div class="col">
+            3 of 3
+        </div>
 
-    <script src="app.js "></script>
+    </div> -->
+    <!-- <div class="row">
+        <div class="col">
+            1 of 3
+        </div>
+        <div class="col">
+            2 of 3
+        </div>
+        <div class="col">
+            3 of 3
+        </div>
+    </div> -->
+
+    <script src="app.js"></script>
 </body>
 
 </html>
