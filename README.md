@@ -5,6 +5,7 @@ A journal or track record of my journey to learning something new (something I'v
 ---
 * I will be using bootstrap as the foundation for my journal. All the content will come from myself and the places I learnt them from.
 ---
+0. I decided to use a contact form instead of social media handles as I am not on social media platforms besides Whatsapp and LinkedIn. You will also have realized by now that I love W3Schools, they are such good teachers. References for this project - https://www.w3schools.com/howto/howto_css_contact_form.asp (project origin), https://www.w3schools.com/charsets/ref_emoji.asp (emojis)
 1. I have always wondered what you would use input type="color" for..... This was a fun little task, it refreshed my memory when it comes to the DOM and how simple javascript can be. 
 References for this project - https://www.w3schools.com/html/html_emojis.asp (for the emoji) , https://stackoverflow.com/questions/47971289/input-type-color-styling/47971607 (input type shape).
 2. John Smilga taught me how to make a simple counter that can increase, decrease and reset. I never used querySelectorAll, currentTarget and contains before which he explains really nicely in his video. Also instead of style.color I usually do classlist.add but it was nice knowing these elements exist and how they can be used.
