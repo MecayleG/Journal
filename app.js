@@ -13,6 +13,7 @@ colorBtn.addEventListener("click", function() {
 });
 
 // THE COUNTER
+
 let counter = 0;
 const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".btn");
@@ -41,6 +42,7 @@ btns.forEach(function(btn) {
     })
 });
 // HTML CANVAS
+
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 var radius = canvas.height / 2;
@@ -123,6 +125,7 @@ function drawHand(ctx, pos, length, width) {
 }
 
 //MODAL
+
 var modal = document.getElementById("myModal");
 var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close")[0];
@@ -133,11 +136,13 @@ span.onclick = function() {
     modal.style.display = "none";
 }
 window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
+    if (event.target == modal) {
+        modal.style.display = "none";
     }
-    // SLIDESHOW
+}
+
+// SLIDESHOW
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -163,4 +168,21 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
+}
+// READ MORE/READ LESS
+
+function myFunction() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("more");
+    var btnText = document.getElementById("Btn");
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.innerHTML = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.innerHTML = "Read less";
+        moreText.style.display = "inline";
+    }
 }
