@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>I Learnt . . .</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 </head>
 
@@ -28,15 +30,19 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h4>1. Input type="color"</h4>
+                <a tabindex="0" class="btn btn-sm btn-danger" role="button" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="focus" data-bs-content="I have always wondered what you would use input type='color' for..... This was a fun little task, it refreshed my memory when it comes to the DOM and how simple javascript can be.">Input type="color"</a>
+                <!-- <button type="button" class="btn btn-danger btn-sm myDiv" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="I have always wondered what you would use input type='color' for..... This was a fun little task, it refreshed my memory when it comes to the DOM and how simple javascript can be.">
+                    Input type="color"
+                                  </button> -->
                 <hr>
                 <label for="favcolor">What's your favorite color?</label> <br>
                 <input type="color" id="favcolor" name="favcolor" value="#00FF00"> <br>
-                <button class="submit-color-btn">Enter</button>
+                <button class="submit-color-btn btn btn-dark">Enter</button>
                 <p class="color-text"></p>
             </div>
             <div class="col">
-                <h4>2. A counter </h4>
+                <a tabindex="0" class="btn btn-sm btn-danger" role="button" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="focus" data-bs-content="John Smilga taught me how to make a simple counter that can increase, decrease and reset. I never used querySelectorAll, currentTarget and contains before which he explains really nicely in his video. Also instead of
+                style.color I usually do classlist.add but it was nice knowing these elements exist and how they can be used.">A counter</a>
                 <hr>
                 <span id="value">0</span> <br>
                 <div class="btns">
@@ -44,16 +50,26 @@
                     <button class="btn reset">Reset</button>
                     <button class="btn increase">Increase</button>
                 </div>
+
             </div>
             <div class="col">
-                <h4>3. HTML Canvas </h4>
+                <a tabindex="0" class="btn btn-sm btn-danger" role="button" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="focus" data-bs-content="I always wanted to try canvas! This was fun but also quite tricky and involved alot of properties, methods and numbers(which I have never used). Luckily W3Schools explains the code in this awesome tutorial.">HTML Canvas</a>
+
+                <!-- <button type="button" class="btn btn-danger btn-sm myDiv" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="I always wanted to try canvas! This was fun but also quite tricky and involved alot of properties, methods and numbers(which I had never used). Luckily W3Schools explains the code in this awesome tutorial. ">
+                    HTML Canvas
+                  </button> -->
                 <hr>
                 <canvas id="canvas" width="170" height="170"></canvas>
+
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <h4>4. Audio</h4>
+                <a tabindex="0" class="btn btn-sm btn-danger" role="button" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="focus" data-bs-content="I discovered this tag a few months ago and it seemed so simple to use, it also requires no javascript to set up, unless of course you want to spice it up and play things based on conditions.">Audio</a>
+
+                <!-- <button type="button" class="btn btn-danger btn-sm myDiv" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="I discovered this tag a few months ago and it seemed so simple to use, it also requires no javascript to set up, unless of course you want to spice it up and play things based on conditions.">
+                    Audio
+                  </button> -->
                 <hr>
                 <label for="audio">Press play to hear one of my favorite songs &#x1F3B5;</label>
                 <audio id="audio" controls>
@@ -61,9 +77,14 @@
                     Your browser does not support the audio element.
                 </audio>
                 <p class="msg">To Z.Lakay</p>
+
             </div>
+
             <div class="col">
-                <h4>5. Modal</h4>
+                <a tabindex="0" class="btn btn-sm btn-danger" role="button" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="focus" data-bs-content="Modals are so fun to use, they are like cool pop up cards and only with a few lines of Javascript.">Modal</a>
+                <!-- <button type="button" class="btn btn-danger btn-sm myDiv" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Modals are so fun to use, they are like cool pop up cards and only with a few lines of Javascript. ">
+                    Modal
+                  </button> -->
                 <hr>
                 <button id="myBtn">Click Me</button>
 
@@ -97,12 +118,14 @@
                             <p>&#128151;</p>
                         </div>
                     </div>
-
                 </div>
-
             </div>
             <div class="col">
-                <h4>6. Slideshow</h4>
+                <a tabindex="0" class="btn btn-sm btn-danger" role="button" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="focus" data-bs-content="W3Schools at it again showing me how to make a simple slideshow. One thing I noticed about these projects is they love applying display styles using Javascript for the desired effect.">Slideshow</a>
+
+                <!-- <button type="button" class="btn btn-danger btn-sm myDiv" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="W3Schools at it again showing me how to make a simple slideshow. One thing I noticed about these projects is they love applying display styles using Javascript for the desired effect.">
+                    Slideshow
+                  </button> -->
                 <hr>
                 <div class="slideshow-container">
 
@@ -144,36 +167,44 @@
     </div>
     <div class="row">
         <div class="col">
-            <h4>7. Read more Read less</h4>
+            <a tabindex="0" class="btn btn-sm btn-danger" role="button" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-trigger="focus" data-bs-content="I honestly love the simplicity of this button that I never actually paid attention to when looking at websites. Again using javascript to change the display styles of the paragraph. I also used the /pre tag for the first
+            time and it's great for poems.">Read more Read less</a>
+
+            <!-- <button type="button" class="btn btn-danger btn-sm myDiv" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="I honestly love the simplicity of this button that I never actually paid attention to when looking at websites. Again using javascript to change the display styles of the paragraph. I also used the /pre tag for the first
+            time and it's great for poems">
+            Read more Read less
+              </button> -->
             <hr>
             <pre>
-                Smiling is infectious, 
-                You catch it like the flu,
-                When someone smiled at me today,
-                <span id="dots">...</span><span id="more"> 
-                I started smiling too. 
-                I passed around the corner,
-                And someone saw my grin,
-                When he smiled I realized,
-                I'd passed it on to him.
+    Smiling is infectious, 
+    You catch it like the flu,
+    When someone smiled at me today,
+    <span id="dots">...</span><span id="more"> 
+    I started smiling too. 
+    I passed around the corner,
+    And someone saw my grin,
+    When he smiled I realized,
+    I'd passed it on to him.
                     
-                I thought about that smile,
-                Then realized its worth,
-                A single smile, just like mine,
-                Could travel round the earth.
+    I thought about that smile,
+    Then realized its worth,
+    A single smile, just like mine,
+    Could travel round the earth.
                     
-                So, if you feel a smile begin,
-                Don't leave it undetected.
-                Let's start an epidemic quick,
-                And get the world infected.</span></pre>
-            <button onclick="myFunction()" id="Btn">Read more</button>
+    So, if you feel a smile begin,
+    Don't leave it undetected.
+    Let's start an epidemic quick,
+    And get the world infected.</span>
+            </pre>
+            <button onclick="myFunction()" id="Btn" class="btn btn-dark">Read more</button>
+
         </div>
-        <div class="col">
+        <!-- <div class="col">
             2 of 2
         </div>
         <div class="col">
             3 of 3
-        </div>
+        </div> -->
 
     </div>
     <!-- <div class="row">
@@ -190,6 +221,8 @@
     <div class="footer">
         Created by Mecayle Robyn Gamba on 14/01/2021
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     <script src="app.js"></script>
 </body>
 

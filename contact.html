@@ -24,22 +24,14 @@
         <li class="nav-item">
         </li>
     </ul>
-    <div class="form">
-        <h5 class="intro-text">Want to say hi &#9995;? Have a recommendation for my journal &#9997;? Or do you just want to know more &#128064;? </h5>
-        <form action="mailto:mecayleg@gmail.com" method="post" enctype="text/plain">
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    <div class="form-style-6">
+        <h1>Want to say hi &#9995;? Have a recommendation for my journal &#9997;? Or do you just want to know more &#128064;?</h1>
+        <form action="https://formspree.io/f/meqpnble" method="POST">
+            <input type="text" name="_replyto" placeholder="Your Email" required>
 
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-            <label for="subject">Message</label>
-            <textarea id="subject" name="subject" placeholder="What's on your mind.." style="height:200px"></textarea>
-
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
+            <textarea name="message" placeholder="What's on your mind?" required></textarea>
+            <button type="submit" class="btn btn-danger">Send</button>
         </form>
-
     </div>
     <div class="footer">
         Created by Mecayle Robyn Gamba on 14/01/2021
